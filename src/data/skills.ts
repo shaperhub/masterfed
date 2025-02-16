@@ -1,0 +1,23 @@
+export const techskills = [
+    "HTML", 
+    "CSS", 
+    "JavaScript", 
+    "TypeScript", 
+    "React", 
+    "Next.js", 
+    "Angular", 
+    "Node.js", 
+    "WordPress",
+    "MongoDB", 
+    "PostgreSQL", 
+    "AWS", 
+    "GCP", 
+    "Docker", 
+    "Jest", 
+    "Cypress", 
+    "Postman", 
+    "Git", 
+    "REST API", 
+    "GraphQL", 
+    "AI"
+];
