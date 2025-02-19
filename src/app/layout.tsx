@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import ScrollToTop from "@/components/ScrollToTop";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
-// import Script from "next/script";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -40,18 +40,18 @@ export default function RootLayout({
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="manifest" href="/site.webmanifest" />
-      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-4BVCQTESPN"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QNB5G4VCHK"></Script>
       <Script id="google-analytics">
         {
           `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-4BVCQTESPN');
+          gtag('config', 'G-QNB5G4VCHK');
           
           `
         }
-      </Script> */}
+      </Script>
     </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <ThemeProvider
