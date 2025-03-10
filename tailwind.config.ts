@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
   	extend: {
   		backgroundImage: {
-  			'hero-img': 'url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg)'
+  			// 'hero-img': 'url(https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg)'
+  			'hero-img': "url('/background.jpg')"
   		},
   		boxShadow: {
   			epc: '0 4px 6px rgba(0, 0, 0, 0.1)',
