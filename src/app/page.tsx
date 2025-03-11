@@ -8,7 +8,7 @@ import { CircleArrowDown } from "lucide-react";
 export default function Home() {
   return (
     <div className="space-y-16">
-      <section className="hero bg-center bg-cover bg-no-repeat bg-hero-img bg-fixed flex flex-col items-center justify-center h-screen pb-12">
+      <section className="hero bg-center bg-cover bg-no-repeat bg-hero-mobile md:bg-hero-img bg-fixed flex flex-col items-center justify-center h-screen pb-12">
         <h1 className="font-bold text-3xl md:text-5xl my-12 text-white">Welcome to <AuroraText>Masterfed</AuroraText></h1>
         <p className="font-light text-lg mb-12 text-white text-center px-8">I am a Full Stack Web Developer with expertise in modern web technologies</p>
         <p className="font-light text-lg mb-12 text-white"></p>
