@@ -47,10 +47,11 @@ const About = () => {
     <div className="pt-16 pb-8 px-8 md:px-16 max-w-[850px] mx-auto text-center" id="about">
       <h1 className="font-bold text-2xl md:text-4xl pb-2">About Me</h1>
       <p className="text-base md:text-lg mt-2 pb-4 text-justify">
-        Ever since I started working with computers as a young boy, I have been obsessed with creating visual designs.
-        I started with WordArt on Microsoft Word, then moved to Adobe Illustrator and Photoshop.
-        When I got into college, I learned Web Development because it was an avenue for me to learn coding and also design websites.
-        I enjoy working on challenging projects and helping clients bring their creative and business ideas to life.
+        My journey into design and development began in childhood, when I first discovered the joy of creating visuals using WordArt in Microsoft Word. 
+        That early fascination with digital design grew as I explored tools like Adobe Illustrator and Photoshop, spending hours experimenting and learning on my own. 
+        In college, I found the perfect bridge between creativity and logic in web development. It allowed me to bring my designs to life through code. 
+        Since then, I&apos;ve been passionate about building thoughtful, visually engaging websites and tackling projects that challenge me to grow. 
+        I love collaborating with others to transform their ideas into digital realities.
       </p>
       <Services />
       <p className="text-lg md:text-2xl font-bold py-4">These are some of my areas of expertise:</p>
